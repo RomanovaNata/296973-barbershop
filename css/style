@@ -1,0 +1,23 @@
+body {
+	font-size:14p;
+	line-height:24p;
+	color:#000000;
+	font-weight:bold;
+	font-family:PT Sans Narrow;
+}
+
+h1 {
+	font-size:30p;
+	line-height:42p;
+	color:#000000;
+	font-weight:bold;
+	font-family:PT Sans Narrow;
+}
+
+h2 {
+	font-size:24p;
+	line-height:30p;
+	color:#000000;
+	font-weight:bold;
+	font-family:PT Sans Narrow;
+}
