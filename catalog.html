@@ -2,8 +2,8 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
-	<link href="css/style.css" rel="stylesheet">
 	<title>Средства для ухода</title>
+	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 	<header class="main-header">
@@ -47,7 +47,7 @@
 					<a href="#">Магазин</a>
 				</li>
 				<li>
-					<span class="breadcrumbs-activ">Средства для ухода</span>
+					<a class="breadcrumbs-activ">Средства для ухода</a>
 				</li>
 			</ul>
 		</div>
@@ -55,126 +55,147 @@
 			<form action="#" method="get">
 				<fieldset class="list-produce">
 					<legend>Производители:</legend>
-					<p>
-						<label>
-						<input type="checkbox" name="baxter" checked>Baxter of California
-						</label>
-					</p>
-					<p>
-						<label>
-						<input type="checkbox" name="mr-natty">MR Natty
-						</label>
-					</p>
-					<p>
-						<label>
-						<input type="checkbox" name="suavetico" checked>Suavetico
-						</label>
-					</p>
-					<p>
-						<label>
-						<input type="checkbox" name="malin-Goetz">Malin+Goetz
-						</label>
-					</p>
-					<p>
-						<label>
-						<input type="checkbox" name="murray">Murray's
-						</label>
-					</p>
-					<p>
-						<label>
-						<input type="checkbox" name="american-Crew" checked>American Crew
-						</label>
-					</p>
+					<ul>
+						<li>
+							<label>
+							<input type="checkbox" name="baxter" checked>Baxter of California
+							</label>
+						</li>
+						<li>
+							<label>
+							<input type="checkbox" name="mr-natty">MR Natty
+							</label>
+						</li>
+						<li>
+							<label>
+							<input type="checkbox" name="suavetico" checked>Suavetico
+							</label>
+						</li>
+						<li>
+							<label>
+							<input type="checkbox" name="malin-Goetz">Malin+Goetz
+							</label>
+						</li>
+						<li>
+							<label>
+							<input type="checkbox" name="murray">Murray's
+							</label>
+						</li>
+						<li>
+							<label>
+							<input type="checkbox" name="american-Crew" checked>American Crew
+							</label>
+						</li>
+					</ul>
 				</fieldset>>
 				<fieldset class="list-item">
 					<legend>Группы товаров:</legend>
-					<p>
-						<label>
-							<input type="radio" name="list-item" value="razor-set">Бритвенные принадлежности
-						</label>
-					</p>
-					<p>
-						<label>
-							<input type="radio" name="list-item" value="razor-carry" checked>Средства для ухода
-						</label>
-					</p>
-					<p>
-						<label>
-							<input type="radio" name="list-item" value="razor-accessories">Аксессуары
-						</label>
-					</p>
-					<button class="list-item-button" type="button">Показать
-					</button>
-				</fieldset>>
+					<ul>
+						<li>
+							<label>
+								<input type="radio" name="list-item" value="razor-set">Бритвенные принадлежности
+							</label>
+						</li>
+						<li>
+							<label>
+								<input type="radio" name="list-item" value="razor-carry" checked>Средства для ухода
+							</label>
+						</li>
+						<li>
+							<label>
+								<input type="radio" name="list-item" value="razor-accessories">Аксессуары
+							</label>
+						</li>
+						<button class="list-item-button" type="button">Показать
+						</button>
+					</ul>
+				</fieldset>
 			</form>
 		</div>
 		<div class="catalog">
 			<div class="catalog-item">
 					<a href="#"><img src="img/catalog-item-1.png" width="220" height="165" alt="Набор для путешествий Baxter of California"></a>
-					<p>
-						<a class="catalog-item-description" href="#">Набор для путешествий "Baxter of California"</a>
-					</p>
+					<h2>
+						<a class="catalog-item-description" href="#">
+							<span class="catalog-description-sort">Набор для путешествий</span>
+							<span class="catalog-description-name">"Baxter of California"</span>
+						</a>
+					</h2>
 				<div class="catalog-item-buy">
 					<span class="catalog-price">2900 руб.</span>
-					<button class="catalog-button catalog-buy" type="button">Купить
-					</button>
+					<a class="catalog-button catalog-buy" type="button">Купить
+					</a>
 				</div>
 			</div>
 			<div class="catalog-item">
 				<a href="#"><img src="img/catalog-item-2.png" width="220" height="165" alt="Увлажняющий кондиционер Baxter of California"></a>
-				<p>
-					<a class="catalog-item-description" href="#">Увлажняющий кондиционер "Baxter of California"</a>
-				</p>
+				<h2>
+					<a class="catalog-item-description" href="#">
+						<span class="catalog-description-sort">Увлажняющий кондиционер</span>
+						<span class="catalog-description-name">"Baxter of California"</span>
+					</a>
+				</h2>
 				<div class="catalog-item-buy">
 					<span class="catalog-price">750 руб.</span>
-					<button class="catalog-button catalog-buy" type="button">Купить
-					</button>
+					<a class="catalog-buy" type="button">Купить
+					</a>
 				</div>
 			</div>
 			<div class="catalog-item">
 				<a href="#"><img src="img/catalog-item-3.png" width="220" height="165" alt="Гель для волос Suavetico"></a>
-				<p>
-					<a class="catalog-item-description" href="#">Гель для волос "Suavetico"</a>
-				</p>
+				<h2>
+					<a class="catalog-item-description" href="#">
+						<span class="catalog-description-sort">Гель для волос</span>
+						<span class="catalog-description-name">"Suavetico"</span>
+					</a>
+				</h2>
 				<div class="catalog-item-buy">
 					<span class="catalog-price">290 руб.</span>
-					<button class="catalog-button catalog-buy" type="button">Купить
-					</button>
+					<a class="catalog-buy" type="button">Купить
+					</a>
 				</div>
 			</div>
 			<div class="catalog-item">
 				<a href="#"><img src="img/catalog-item-4.png" width="220" height="165" alt="Глина для укладки волос American Crew">
 				</a>
-				<p>
-					<a class="catalog-item-description" href="#">Глина для укладки волос "American Crew"
+				<h2>
+					<a class="catalog-item-description" href="#">
+						<span class="catalog-description-sort">Глина для укладки волос</span>
+						<span class="catalog-description-name">"American Crew"</span>
 				</a>
-				</p>
+				</h2>
 				<div class="catalog-item-buy">
 					<span class="catalog-price">500 руб.</span>
-					<button class="catalog-button catalog-buy" type="button">Купить
-					</button>
+					<a class="catalog-buy" type="button">Купить
+					</a>
 				</div>
 			</div>
 			<div class="catalog-item">
 				<a href="#"><img src="img/catalog-item-5.png" width="220" height="165" alt="Гель для волос American Crew"></a>
-				<p>
-					<a class="catalog-item-description" href="#">Гель для волос "American Crew"</a>
-				</p>
+				<h2>
+					<a class="catalog-item-description" href="#">
+						<span class="catalog-description-sort">Гель для волос</span>
+						<span class="catalog-description-name">"American Crew"</span>
+					</a>
+				</h2>
 				<div class="catalog-item-buy">
 					<span class="catalog-price">300 руб.</span>
-					 <button class="catalog-button catalog-buy" type="button">Купить
-					</button>
+					 <a class="catalog-buy" type="button">Купить
+					</a>
 				</div>
 			</div>
 			<div class="catalog-item">
 				<a href="#"><img src="img/catalog-item-6.png" width="220" height="165" alt="Набор для бритья Baxter of California"></a>
-				<p>
-					<a class="catalog-item-description" href="#">Набор для бритья "Baxter of California"</a>
-				</p>
+				<h2>
+					<a class="catalog-item-description" href="#">
+						<span class="catalog-description-sort">Набор для бритья</span>
+						<span class="catalog-description-name">"Baxter of California"</span>
+					</a>
+				</h2>
 				<div class="catalog-item-buy">
 					<span class="catalog-price">3900 руб.</span>
-					<button class="catalog-button catalog-buy" type="button">Купить
-					</button>
+					<a class="catalog-buy" type="button">Купить
+					</a>
 				</div>
 			</div>
 			<div>
